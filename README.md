@@ -11,7 +11,7 @@ Following design patterns are covered.
 
 * PHP
 
-#### License
+### License
 
 MIT License Copyright (c) 2019 Yusuf Shakeel
 
