@@ -6,6 +6,7 @@ This is a design patterns project.
 Following design patterns are covered.
 
 * Singleton
+* Factory
 
 ### Language
 
