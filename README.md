@@ -7,6 +7,7 @@ Following design patterns are covered.
 
 * Singleton
 * Factory
+* Factory Method
 
 ### Language
 
