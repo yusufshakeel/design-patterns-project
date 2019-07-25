@@ -5,9 +5,13 @@ This is a design patterns project.
 
 Following design patterns are covered.
 
+Creational patterns
 * Singleton
 * Factory
 * Factory Method
+
+Behavioral patterns
+* Strategy
 
 ### Language
 
