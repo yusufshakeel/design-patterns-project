@@ -1,7 +1,8 @@
-package observer;
+package observer.youtube;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import observer.youtube.YouTubeUser;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.Arrays;

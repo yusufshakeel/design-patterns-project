@@ -1,5 +1,8 @@
-package observer;
+package observer.youtube;
 
+import observer.youtube.Subscriber;
+import observer.youtube.YouTubeChannel;
+import observer.youtube.YouTubeUser;
 import org.junit.jupiter.api.Test;
 import static org.mockito.Mockito.*;
 
