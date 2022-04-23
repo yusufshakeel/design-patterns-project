@@ -60,3 +60,6 @@ build
 
 # Mac
 .DS_Store
+
+# Coverage
+coverage
