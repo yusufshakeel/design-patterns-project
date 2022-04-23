@@ -1,4 +1,4 @@
-package observer;
+package observer.youtube;
 
 import java.util.ArrayList;
 

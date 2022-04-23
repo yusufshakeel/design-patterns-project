@@ -1,4 +1,4 @@
-package observer;
+package observer.youtube;
 
 public interface Publisher {
     public void addSubscriber(Subscriber subscriber);
