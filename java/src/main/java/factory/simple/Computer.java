@@ -1,11 +1,11 @@
 package factory.simple;
 
 public abstract class Computer {
-    public abstract void setMemory(ComputerRamInMb memory);
+    public abstract void setMemory();
 
-    public abstract void setStorage(ComputerStorageInGb storage);
+    public abstract void setStorage();
 
-    public abstract void setCore(ComputerCpuCore core);
+    public abstract void setCore();
 
     public abstract String getDetails();
 }
