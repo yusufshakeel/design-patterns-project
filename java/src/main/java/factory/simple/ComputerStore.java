@@ -11,9 +11,15 @@ public class ComputerStore {
 
     public String buyComputer(ComputerType computerType) throws ComputerTypeNotSetError {
         Computer computer = computerFactory.createComputer(computerType);
+
         if (computer == null) {
             throw new ComputerTypeNotSetError();
         }
+
+        computer.setCore();
+        computer.setMemory();
+        computer.setStorage();
+
         return computer.getDetails();
     }
 }

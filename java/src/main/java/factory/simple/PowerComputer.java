@@ -6,18 +6,18 @@ public class PowerComputer extends Computer{
     private ComputerRamInMb memory;
 
     @Override
-    public void setCore(ComputerCpuCore core) {
-        this.core = core;
+    public void setCore() {
+        this.core = ComputerCpuCore.CPU_CORE_4;
     }
 
     @Override
-    public void setStorage(ComputerStorageInGb storage) {
-        this.storage = storage;
+    public void setStorage() {
+        this.storage = ComputerStorageInGb.STORAGE_100_GB;
     }
 
     @Override
-    public void setMemory(ComputerRamInMb memory) {
-        this.memory = memory;
+    public void setMemory() {
+        this.memory = ComputerRamInMb.RAM_IN_MB_1024;
     }
 
     public String getDetails() {
