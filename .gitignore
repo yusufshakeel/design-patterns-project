@@ -63,3 +63,22 @@ build
 
 # Coverage
 coverage
+
+##################################
+# TypeScript
+##################################
+node_modules/
+.node_modules/
+built/*
+*.swp
+coverage/
+**/.DS_Store
+.settings
+**/.vs
+**/.vscode/*
+.idea
+yarn.lock
+yarn-error.log
+package-lock.json
+lib/
+dist/
