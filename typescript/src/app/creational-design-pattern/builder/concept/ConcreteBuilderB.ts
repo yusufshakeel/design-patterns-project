@@ -6,6 +6,9 @@ export default class ConcreteBuilderB implements Builder {
   constructor() {
     this.product = new ProductB();
   }
+  public reset(): void {
+    this.product = new ProductB();
+  }
   public withProp1(prop1: string) {
     this.product.setProp1(prop1);
   }
@@ -16,6 +19,8 @@ export default class ConcreteBuilderB implements Builder {
     this.product.setProp3(prop3);
   }
   public build(): ProductB {
-    return this.product;
+    const product = this.product;
+    this.reset();
+    return product;
   }
 }
