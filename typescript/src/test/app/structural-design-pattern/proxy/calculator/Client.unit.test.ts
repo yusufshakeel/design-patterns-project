@@ -1,7 +1,7 @@
-import BaseMathOps from '../../../../../app/structural-design-pattern/proxy/calculator/BaseMathOps';
-import Client from '../../../../../app/structural-design-pattern/proxy/calculator/Client';
+import BaseMathOps from '../../../../../app/structural-design-patterns/proxy/calculator/BaseMathOps';
+import Client from '../../../../../app/structural-design-patterns/proxy/calculator/Client';
 import ProxyMathOps
-  from '../../../../../app/structural-design-pattern/proxy/calculator/ProxyMathOps';
+  from '../../../../../app/structural-design-patterns/proxy/calculator/ProxyMathOps';
 
 describe('Testing calculator - proxy', () => {
   describe('Testing base mathOps', () => {

@@ -1,6 +1,6 @@
-import Client from '../../../../../../app/creational-design-pattern/factory/factory-method/pizza/Client';
-import DominosStore from '../../../../../../app/creational-design-pattern/factory/factory-method/pizza/DominosStore';
-import PizzaHutStore from '../../../../../../app/creational-design-pattern/factory/factory-method/pizza/PizzaHutStore';
+import Client from '../../../../../../app/creational-design-patterns/factory/factory-method/pizza/Client';
+import DominosStore from '../../../../../../app/creational-design-patterns/factory/factory-method/pizza/DominosStore';
+import PizzaHutStore from '../../../../../../app/creational-design-patterns/factory/factory-method/pizza/PizzaHutStore';
 
 describe('Testing factory method - pizza', () => {
   describe('Dominos Pizza', () => {

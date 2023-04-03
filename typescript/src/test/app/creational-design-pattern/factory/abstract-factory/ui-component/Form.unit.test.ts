@@ -1,9 +1,9 @@
 import Form
-  from '../../../../../../app/creational-design-pattern/factory/abstract-factory/ui-component/Form';
+  from '../../../../../../app/creational-design-patterns/factory/abstract-factory/ui-component/Form';
 import MacOSUIFactory
-  from '../../../../../../app/creational-design-pattern/factory/abstract-factory/ui-component/MacOSUIFactory';
+  from '../../../../../../app/creational-design-patterns/factory/abstract-factory/ui-component/MacOSUIFactory';
 import WindosUIFactory
-  from '../../../../../../app/creational-design-pattern/factory/abstract-factory/ui-component/WindosUIFactory';
+  from '../../../../../../app/creational-design-patterns/factory/abstract-factory/ui-component/WindosUIFactory';
 
 describe('Testing abstract factory - form', () => {
   describe('Concrete factory for macOS', () => {

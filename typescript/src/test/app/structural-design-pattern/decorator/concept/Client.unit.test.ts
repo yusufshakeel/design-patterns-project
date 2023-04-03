@@ -1,8 +1,8 @@
-import Client from '../../../../../app/structural-design-pattern/decorator/concept/Client';
+import Client from '../../../../../app/structural-design-patterns/decorator/concept/Client';
 import ConcreteComponent
-  from '../../../../../app/structural-design-pattern/decorator/concept/ConcreteComponent';
+  from '../../../../../app/structural-design-patterns/decorator/concept/ConcreteComponent';
 import ConcreteDecorator
-  from '../../../../../app/structural-design-pattern/decorator/concept/ConcreteDecorator';
+  from '../../../../../app/structural-design-patterns/decorator/concept/ConcreteDecorator';
 
 describe('Testing decorator - concept', () => {
   test('Should be able to run simple component', () => {

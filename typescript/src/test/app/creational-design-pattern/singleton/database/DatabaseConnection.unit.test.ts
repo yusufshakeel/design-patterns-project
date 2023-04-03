@@ -1,5 +1,5 @@
 import DatabaseConnection
-  from '../../../../../app/creational-design-pattern/singleton/database/DatabaseConnection';
+  from '../../../../../app/creational-design-patterns/singleton/database/DatabaseConnection';
 
 describe('Testing singleton - Database', () => {
   test('Should be able to create only one instance of database connection', () => {

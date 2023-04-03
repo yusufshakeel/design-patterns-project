@@ -1,14 +1,14 @@
 import FlightBooking
-  from '../../../../../app/structural-design-pattern/decorator/add-on/FlightBooking';
+  from '../../../../../app/structural-design-patterns/decorator/add-on/FlightBooking';
 import {
   FlightTicket
-} from '../../../../../app/structural-design-pattern/decorator/add-on/FlightTicket';
+} from '../../../../../app/structural-design-patterns/decorator/add-on/FlightTicket';
 import PriorityCheckInAddOnDecorator
-  from '../../../../../app/structural-design-pattern/decorator/add-on/PriorityCheckInAddOnDecorator';
+  from '../../../../../app/structural-design-patterns/decorator/add-on/PriorityCheckInAddOnDecorator';
 import FlexiBookingAddOnDecorator
-  from '../../../../../app/structural-design-pattern/decorator/add-on/FlexiBookingAddOnDecorator';
+  from '../../../../../app/structural-design-patterns/decorator/add-on/FlexiBookingAddOnDecorator';
 import CorporateMealAddOnDecorator
-  from '../../../../../app/structural-design-pattern/decorator/add-on/CorporateMealAddOnDecorator';
+  from '../../../../../app/structural-design-patterns/decorator/add-on/CorporateMealAddOnDecorator';
 
 describe('Testing flight booking - decorator', () => {
   test('Should be able to book only flight ticket without add-on', () => {

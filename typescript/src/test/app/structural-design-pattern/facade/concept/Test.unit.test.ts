@@ -1,7 +1,7 @@
-import SubsystemA from '../../../../../app/structural-design-pattern/facade/concept/SubsystemA';
-import { FacadeA } from '../../../../../app/structural-design-pattern/facade/concept/FacadeA';
-import { FacadeB } from '../../../../../app/structural-design-pattern/facade/concept/FacadeB';
-import SubsystemB from '../../../../../app/structural-design-pattern/facade/concept/SubsystemB';
+import SubsystemA from '../../../../../app/structural-design-patterns/facade/concept/SubsystemA';
+import { FacadeA } from '../../../../../app/structural-design-patterns/facade/concept/FacadeA';
+import { FacadeB } from '../../../../../app/structural-design-patterns/facade/concept/FacadeB';
+import SubsystemB from '../../../../../app/structural-design-patterns/facade/concept/SubsystemB';
 
 describe('Testing facade - concept', () => {
   test('Should be able to use facadeA', () => {

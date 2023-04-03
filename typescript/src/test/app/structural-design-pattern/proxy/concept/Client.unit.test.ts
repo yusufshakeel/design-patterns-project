@@ -1,6 +1,6 @@
-import RealSubject from '../../../../../app/structural-design-pattern/proxy/concept/RealSubject';
-import Client from '../../../../../app/structural-design-pattern/proxy/concept/Client';
-import ProxySubject from '../../../../../app/structural-design-pattern/proxy/concept/ProxySubject';
+import RealSubject from '../../../../../app/structural-design-patterns/proxy/concept/RealSubject';
+import Client from '../../../../../app/structural-design-patterns/proxy/concept/Client';
+import ProxySubject from '../../../../../app/structural-design-patterns/proxy/concept/ProxySubject';
 
 describe('Testing proxy - concept', () => {
   test('Should be able to use real subject', () => {

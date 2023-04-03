@@ -1,4 +1,4 @@
-import Singleton from '../../../../../app/creational-design-pattern/singleton/concept/Singleton';
+import Singleton from '../../../../../app/creational-design-patterns/singleton/concept/Singleton';
 
 describe('Testing Singleton - concept', () => {
   test('Should be able to create only one instance', () => {

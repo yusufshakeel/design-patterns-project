@@ -1,11 +1,11 @@
-import Client from '../../../../../app/creational-design-pattern/builder/concept/Client';
-import Director from '../../../../../app/creational-design-pattern/builder/concept/Director';
+import Client from '../../../../../app/creational-design-patterns/builder/concept/Client';
+import Director from '../../../../../app/creational-design-patterns/builder/concept/Director';
 import ConcreteBuilderA
-  from '../../../../../app/creational-design-pattern/builder/concept/ConcreteBuilderA';
-import ProductA from '../../../../../app/creational-design-pattern/builder/concept/ProductA';
+  from '../../../../../app/creational-design-patterns/builder/concept/ConcreteBuilderA';
+import ProductA from '../../../../../app/creational-design-patterns/builder/concept/ProductA';
 import ConcreteBuilderB
-  from '../../../../../app/creational-design-pattern/builder/concept/ConcreteBuilderB';
-import ProductB from '../../../../../app/creational-design-pattern/builder/concept/ProductB';
+  from '../../../../../app/creational-design-patterns/builder/concept/ConcreteBuilderB';
+import ProductB from '../../../../../app/creational-design-patterns/builder/concept/ProductB';
 
 describe('Testing building - concept', () => {
   test('Should be able to build product A', () => {

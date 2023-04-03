@@ -1,4 +1,4 @@
-import Client from '../../../../../app/creational-design-pattern/builder/home/Client';
+import Client from '../../../../../app/creational-design-patterns/builder/home/Client';
 
 describe('Testing builder - home', () => {
   test('Should be able to build base home', () => {

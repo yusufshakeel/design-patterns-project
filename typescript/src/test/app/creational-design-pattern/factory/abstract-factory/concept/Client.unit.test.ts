@@ -1,8 +1,8 @@
-import Client from '../../../../../../app/creational-design-pattern/factory/abstract-factory/concept/Client';
+import Client from '../../../../../../app/creational-design-patterns/factory/abstract-factory/concept/Client';
 import ConcreteFactory1
-  from '../../../../../../app/creational-design-pattern/factory/abstract-factory/concept/ConcreteFactory1';
+  from '../../../../../../app/creational-design-patterns/factory/abstract-factory/concept/ConcreteFactory1';
 import ConcreteFactory2
-  from '../../../../../../app/creational-design-pattern/factory/abstract-factory/concept/ConcreteFactory2';
+  from '../../../../../../app/creational-design-patterns/factory/abstract-factory/concept/ConcreteFactory2';
 
 describe('Testing abstract factory - concept', () => {
   test('Should be able to use concrete factory 1 and create family of products', () => {
